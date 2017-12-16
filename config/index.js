@@ -3,6 +3,9 @@ const config = {
   authentication: {
     tokenKey: 'authToken',
   },
+  token: {
+    exp: 30*60*1000, // 30 mins
+  },
   cors: {
     enabled: true,
     credentials: true,

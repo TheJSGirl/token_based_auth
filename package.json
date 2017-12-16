@@ -13,8 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^1.0.3",
+    "koa-router": "^7.3.0",
     "mongoose": "^4.13.7",
-    "njs": "git+https://7halo.codebasehq.com/nascence/njs3.git"
+    "njs": "git+https://7halo.codebasehq.com/nascence/njs3.git",
+    "randomstring": "^1.1.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
