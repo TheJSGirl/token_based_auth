@@ -1,0 +1,28 @@
+{
+  "name": "njs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel . -d .dist --ignore=\"node_modules\"",
+    "start": "node server",
+    "dev": "nodemon server.js --exec babel-node --presets env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.13.7",
+    "njs": "git+https://7halo.codebasehq.com/nascence/njs3.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.13.3",
+    "rimraf": "^2.6.2"
+  }
+}
